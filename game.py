@@ -1,10 +1,7 @@
 
 
-import numbers
+names = ['Anna', 'Oskars', 'Jenifer', 'Anna', 'Miks']
+ages = [17, 18, 18, 15, 20]
 
-
-ages = [14, 16, 40, 56, 76]
-names = ['rivars', 'raiders', 'raitis', 'agris', 'rimants']
-
-for sukadirsu in range(len(names)):
-print(f'{names[sukadirsu]} is {ages[sukadirsu]} years old. ')
+for number in range(len(names)):
+    print(f'{names[number]} is {ages[number]} years old.')
